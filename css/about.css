@@ -1,0 +1,222 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+.custom-nav{
+background:rgba(15,23,42,.95);
+padding:14px 0;
+box-shadow:0 0 20px rgba(0,229,255,.15);
+}
+
+.logo{
+font-size:1.5rem;
+font-weight:700;
+color:#00e5ff !important;
+}
+
+.nav-link{
+color:#ddd !important;
+margin-left:12px;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#00e5ff !important;
+}
+
+/* TITLE */
+
+.title{
+text-align:center;
+font-size:2.8rem;
+font-weight:700;
+margin-bottom:40px;
+color:#00e5ff;
+text-shadow:0 0 15px #00e5ff;
+}
+
+.section-title{
+font-size:2rem;
+font-weight:700;
+margin-bottom:25px;
+color:#7b2ff7;
+}
+
+/* OVERVIEW */
+
+.overview-card{
+
+background:
+rgba(255,255,255,.06);
+
+padding:35px;
+
+border-radius:25px;
+
+border:
+1px solid rgba(255,255,255,.08);
+
+transition:.3s;
+
+}
+
+.overview-card:hover{
+
+box-shadow:
+0 0 30px rgba(123,47,247,.35);
+
+}
+
+/* INFO CARDS */
+
+.info-card{
+
+background:
+rgba(255,255,255,.05);
+
+padding:30px;
+
+border-radius:20px;
+
+text-align:center;
+
+transition:.35s;
+
+}
+
+.info-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+0 0 25px rgba(0,229,255,.25);
+
+}
+
+.info-card i{
+
+font-size:2.5rem;
+
+margin-bottom:15px;
+
+color:#00e5ff;
+
+}
+
+/* TECH STACK */
+
+.tech-card{
+
+background:
+rgba(255,255,255,.06);
+
+padding:30px;
+
+border-radius:20px;
+
+text-align:center;
+
+transition:.35s;
+
+}
+
+.tech-card:hover{
+
+transform:scale(1.05);
+
+box-shadow:
+0 0 25px rgba(123,47,247,.3);
+
+}
+
+.tech-card i{
+
+font-size:3rem;
+
+color:#00e5ff;
+
+margin-bottom:15px;
+
+}
+
+/* TEAM */
+
+.team-card{
+
+background:
+rgba(255,255,255,.05);
+
+padding:30px;
+
+border-radius:22px;
+
+text-align:center;
+
+transition:.35s;
+
+}
+
+.team-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:
+0 0 30px rgba(0,229,255,.25);
+
+}
+
+.team-card img{
+
+width:120px;
+
+height:120px;
+
+border-radius:50%;
+
+margin-bottom:18px;
+
+border:
+3px solid #00e5ff;
+
+}
+
+.team-card h4{
+
+color:#00e5ff;
+
+margin-bottom:10px;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.title{
+
+font-size:2rem;
+
+}
+
+.section-title{
+
+font-size:1.6rem;
+
+}
+
+}

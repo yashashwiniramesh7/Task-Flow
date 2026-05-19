@@ -1,0 +1,275 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+.custom-nav{
+background:rgba(15,23,42,.95);
+box-shadow:0 0 20px rgba(0,229,255,.15);
+padding:14px 0;
+}
+
+.logo{
+font-size:1.5rem;
+font-weight:700;
+color:#00e5ff !important;
+}
+
+.nav-link{
+color:#ddd !important;
+margin-left:12px;
+transition:.3s;
+}
+
+.nav-link:hover{
+color:#00e5ff !important;
+}
+
+/* TITLE */
+
+.title{
+font-size:2.8rem;
+font-weight:700;
+text-align:center;
+margin-bottom:35px;
+color:#00e5ff;
+text-shadow:0 0 15px #00e5ff;
+}
+
+/* INPUTS */
+
+.form-control,
+.form-select{
+
+background:#1e293b;
+color:white;
+border:1px solid #7b2ff7;
+padding:12px;
+
+}
+
+.form-control:focus,
+.form-select:focus{
+
+background:#1e293b;
+color:white;
+box-shadow:0 0 15px #00e5ff;
+border-color:#00e5ff;
+
+}
+
+/* BUTTON */
+
+.btn-neon{
+
+background:
+linear-gradient(45deg,#7b2ff7,#00e5ff);
+
+color:white;
+font-weight:600;
+border:none;
+padding:12px;
+
+transition:.35s;
+
+}
+
+.btn-neon:hover{
+
+transform:translateY(-3px);
+
+box-shadow:
+0 0 25px rgba(0,229,255,.45);
+
+color:white;
+
+}
+
+/* PROGRESS */
+
+.progress-section{
+
+background:rgba(255,255,255,.05);
+
+padding:20px;
+
+border-radius:20px;
+
+margin-bottom:25px;
+
+}
+
+.progress{
+
+height:28px;
+
+background:#111827;
+
+}
+
+.progress-bar{
+
+background:
+linear-gradient(45deg,#00e5ff,#7b2ff7);
+
+font-weight:bold;
+
+}
+
+/* TASK CARD */
+
+.task-card{
+
+background:
+rgba(255,255,255,.06);
+
+border-radius:20px;
+
+padding:25px;
+
+transition:.35s;
+
+border:
+1px solid rgba(255,255,255,.08);
+
+}
+
+.task-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:
+0 0 30px rgba(0,229,255,.25);
+
+}
+
+.task-card.completed{
+
+opacity:.65;
+
+text-decoration:line-through;
+
+}
+
+/* PRIORITY COLORS */
+
+.high{
+
+color:#ff3b3b;
+font-weight:700;
+
+}
+
+.medium{
+
+color:#ffb300;
+font-weight:700;
+
+}
+
+.low{
+
+color:#00ff99;
+font-weight:700;
+
+}
+
+/* ACTION BUTTONS */
+
+.action-btn{
+
+margin-right:8px;
+
+padding:8px 14px;
+
+border:none;
+
+border-radius:10px;
+
+font-size:.9rem;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.done-btn{
+
+background:#00c853;
+
+color:white;
+
+}
+
+.edit-btn{
+
+background:#ffb300;
+
+color:#111;
+
+}
+
+.delete-btn{
+
+background:#ff1744;
+
+color:white;
+
+}
+
+.action-btn:hover{
+
+transform:scale(1.05);
+
+}
+
+/* MODAL */
+
+.custom-modal{
+
+background:#111827;
+
+color:white;
+
+border:1px solid #7b2ff7;
+
+}
+
+/* TASK INFO */
+
+.task-date{
+
+color:#ccc;
+
+font-size:.9rem;
+
+margin-top:10px;
+
+}
+
+/* RESPONSIVE */
+
+@media(max-width:768px){
+
+.title{
+
+font-size:2rem;
+
+}
+
+}
